@@ -148,7 +148,7 @@ function Features() {
         className="absolute inset-0 top-1/3 flex items-center justify-center"
         ref={keyboardRef}
       >
-        <img src="src/assets/keyboard.png" className="h-auto max-w-full" />
+        <img src="/src/assets/keyboard.png" className="h-auto max-w-full" />
       </div>
       <div ref={linesRef} className="absolute inset-0">
         {/* Vertical Lines */}
