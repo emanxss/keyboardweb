@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
+import keyboardImg from '@assets/keyboardimg.png' // or './assets/keyboardimg.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -148,7 +149,7 @@ function Features() {
         className="absolute inset-0 top-1/3 flex items-center justify-center"
         ref={keyboardRef}
       >
-        <img src="/src/assets/keyboardimg.png" className="h-auto max-w-full" />
+        <img src={keyboardImg} className="h-auto max-w-full" />
       </div>
       <div ref={linesRef} className="absolute inset-0">
         {/* Vertical Lines */}
