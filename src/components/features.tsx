@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-import keyboardImg from '@assets/keyboardimg.png' // or './assets/keyboardimg.png'
+import keyboardImg from '/src/assets/keyboardimg.png' // or './assets/keyboardimg.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
